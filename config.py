@@ -4,10 +4,10 @@ import os
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-API_ID = int(os.environ.get("API_ID", "26704962"))
+API_ID = int(os.environ.get("API_ID", ""))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "6c0013f5b2e558b681a4967c2d5f5047")
+API_HASH = os.environ.get("API_HASH", "")
 
 #Database 
 DB_URI = os.environ.get("DB_URI", "dkky.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
